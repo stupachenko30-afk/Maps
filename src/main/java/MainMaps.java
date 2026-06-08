@@ -11,7 +11,7 @@ Map
        |
  LinkedHashMap
       keys========================================
-set ["kiwi", "apple", "grape", "orange", "banana"]
+set ["kiwi", "apple", "grape", "orange", "banana"] d
        |        |       |         |          |
       50        70     20        80         70
       value======================================
