@@ -27,7 +27,7 @@ public class MainMapsCollection {
         lcities.put("Dnipro", 970000);
         lcities.put("Lviv", 720000);
         System.out.println(lcities);
-        System.out.println(lcities);
+
 
        // TreeMap
 

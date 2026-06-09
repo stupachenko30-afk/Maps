@@ -34,7 +34,7 @@ public class MainMaps {
 
     }
 
-    private static void printMap(Map<String, Integer> map) {
+    public static void printMap(Map<String, Integer> map) {
        Set<String> set = map.keySet();
        for (String key: set){
            System.out.print(key + " => ");
