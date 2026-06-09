@@ -52,7 +52,7 @@ public class MainMapsCollection {
     }
 
     private static void printMap(Map<String, Integer> cities) {
-        Set<String> set = cities.keySet(); //перемещаю в коллекцию Set ключи из map(cities)
+        Set<String> set = cities.keySet(); //перемещаю в коллекцию(Тип переменной) Set в переменную set ключи из map(cities)
         for (String key: set){ //перебираю ключи, для каждой переменной key получаю свой ключ
             System.out.print(key +" => ");//печатаю значение key + символ
             int value = cities.get(key); //получаю значение(value) по переменной ключа(key) из map(cities)
