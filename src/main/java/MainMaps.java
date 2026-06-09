@@ -27,24 +27,24 @@ public class MainMaps {
         tmap.put("banana" ,70);
        System.out.println(tmap);
 
-        printMap(hmap);
-        printMap(lmap);
-        printMap(tmap);
+//        printMap(hmap);
+//        printMap(lmap);
+//        printMap(tmap);
 
 
     }
 
-    public static void printMap(Map<String, Integer> map) {
-       Set<String> set = map.keySet();
-       for (String key: set){
-           System.out.print(key + " => ");
-           int value = map.get(key);
-           System.out.println(value);
-
-       }
-
-        System.out.println("***********************************");
-    }
+//    public static void printMap(Map<String, Integer> map) {
+//       Set<String> set = map.keySet();
+//       for (String key: set){
+//           System.out.print(key + " => ");
+//           int value = map.get(key);
+//           System.out.println(value);
+//
+//       }
+//
+//        System.out.println("***********************************");
+//    }
 
 }
 

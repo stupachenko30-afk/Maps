@@ -29,9 +29,36 @@ public class MainMapsCollection {
         System.out.println(lcities);
 
 
-       // TreeMap
+        TreeMap<String,Integer> tcities= new TreeMap<>();
+        tcities.put("Berlin", 3850000);
+        tcities.put("Hamburg", 1910000);
+        tcities.put("Munich", 1600000);
+        tcities.put("Cologne", 1090000);
+        tcities.put("Frankfurt", 780000);
+        tcities.put("Kharkiv", 1420000);
+        tcities.put("Odesa", 1010000);
+        tcities.put("Dnipro", 970000);
+        tcities.put("Lviv", 720000);
+        System.out.println(tcities);
 
+//        MainMaps.printMap(hcities);
+//        MainMaps.printMap(lcities);
+//        MainMaps.printMap(tcities);
 
+        printMap(hcities);
+        printMap(lcities);
+        printMap(tcities);
 
+    }
+
+    private static void printMap(Map<String, Integer> cities) {
+        Set<String> set = cities.keySet(); //ключи из map(cities) перемещаю в коллекцию Set
+        for (String key: set){ //перебираю ключи, для каждого key получаю свой ключ
+            System.out.print(key +" => ");
+            int value = cities.get(key); //получаем значение(value) по ключу из map(cities)
+            System.out.println(value); //печатаю значение
+
+        }
+        System.out.println("*****************************");
     }
 }
