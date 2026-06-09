@@ -52,8 +52,8 @@ public class MainMapsCollection {
     }
 
     private static void printMap(Map<String, Integer> cities) {
-        Set<String> set = cities.keySet(); //ключи из map(cities) перемещаю в коллекцию Set
-        for (String key: set){ //перебираю ключи, для каждого key получаю свой ключ
+        Set<String> set = cities.keySet(); //перемещаю в коллекцию Set ключи из map(cities)
+        for (String key: set){ //перебираю ключи , для каждой переменной key получаю свой ключ
             System.out.print(key +" => ");
             int value = cities.get(key); //получаем значение(value) по ключу из map(cities)
             System.out.println(value); //печатаю значение
